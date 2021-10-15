@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body,
+  ul, ol, li,
+  h1, h2, h3, h4, h5, h6, p, div {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Lucida Grande";
+  }
+
+  .lesson-wrapper {
+    padding-bottom: 120px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgba(7, 6, 6, 0.897);
+    text-align: center;
+  }
+  
+  .heading {
+    padding-top: 10px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+    color: white;
+  }
+  
+  .lesson {
+    float: left;
+    width: 25%;
+  }
+  
+  .lesson-icon {
+    position: relative;
+  }
+  
+  .txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #b3aeb5;
+  }
+  
+  .heading h3 {
+    font-weight: normal;
+  }
+  .logo {
+    width: 124px;
+    margin-top:0px;
+  }
